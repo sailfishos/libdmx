@@ -1,0 +1,27 @@
+Name: libdmx
+Summary: X.Org X11 libdmx runtime library
+Version: 1.1.0
+Release: 1
+Group: System/Libraries
+License: MIT/X11
+URL: http://www.x.org
+Sources:
+    - ftp://ftp.x.org/pub/individual/lib/%{name}-%{version}.tar.bz2
+Description: X.Org X11 libdmx runtime library
+
+PkgBR:
+    - pkgconfig
+PkgConfigBR:
+    - xproto
+    - x11
+    - xext
+    - xau
+    - xextproto
+    - dmxproto
+Configure: configure
+SubPackages:
+    - Name: devel
+      Summary: X.Org X11 libdmx development package
+      Group: Development/Libraries
+      Description: X.Org X11 libdmx development package
+
