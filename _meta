@@ -1,8 +1,0 @@
-<package project="Mer:Trunk:Base" name="libdmx">
-  <title>X.Org X11 libdmx runtime library</title>
-  <description>X.Org X11 libdmx runtime library
-
-
-</description>
-  <url>http://www.x.org</url>
-</package>
